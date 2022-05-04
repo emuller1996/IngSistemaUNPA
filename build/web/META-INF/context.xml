@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/elearn">
+    
+    <Resource auth="Container" 
+              driverClassName="com.mysql.jdbc.Driver" 
+              maxActive="15" maxIdle="3" 
+              maxWait="5000" name="jdbc/IngSistemas" 
+              connectionProperties="useUnicode=yes"
+              characterEncoding="utf8"
+              password="" type="javax.sql.DataSource" 
+              url="jdbc:mysql://localhost/curso_jsp?serverTimezone=America/Bogota" 
+              username="root">
+    </Resource>
+
+</Context>
